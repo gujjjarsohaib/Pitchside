@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PitchSide – Live Football Scores</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="w bar">
+    <a class="logo" href="#home">⚽ PitchSide</a>
+    <nav>
+      <a href="#home">Matches</a>
+      <a href="#comp-epl">Premier League</a>
+      <a href="#comp-ll">La Liga</a>
+      <a href="#comp-ucl">Champions League</a>
+    </nav>
+    <span class="sp"></span>
+    <input id="q" type="search" placeholder="Search team…" aria-label="Search team">
+    <button class="ib" id="th" aria-label="Toggle theme">🌓</button>
+  </div>
+</header>
+<div id="tk"></div>
+<main class="w" id="app"></main>
+<footer>PitchSide · Live football scores</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
